@@ -1,0 +1,17 @@
+/*
+ *Link: https://codeforces.com/problemset/problem/791/A
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    long a, b, i=0;;
+    cin>>a>>b;
+    while(a<=b){
+        a*=3;
+        b*=2;
+        i++;
+    }
+    cout<<i<<endl;
+}
